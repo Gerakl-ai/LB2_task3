@@ -1,0 +1,145 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Protein Dessert Gallery</title>
+
+    <style>
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #eeeeee;
+        }
+
+
+        header {
+            text-align: center;
+            padding: 20px;
+        }
+
+
+        main {
+            width: 650px;
+            margin: 0 auto;
+            background: white;
+            border: 1px solid #ccc;
+            padding: 20px;
+            text-align: center;
+        }
+
+
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            color: gray;
+            font-size: 14px;
+        }
+
+
+        h1 {
+            margin-bottom: 20px;
+        }
+
+
+        .main-image img {
+            width: 350px;
+            margin-bottom: 20px;
+            transition: 0.3s;
+        }
+
+            .main-image img:hover {
+                transform: scale(1.05);
+            }
+
+
+        .preview {
+            list-style: none;
+        }
+
+
+            .preview li {
+                display: inline-block;
+                border: 2px solid transparent;
+            }
+
+
+            .preview img {
+                width: 90px;
+                padding: 10px;
+                transition: 0.3s;
+            }
+
+
+            .preview li:hover {
+                border: 2px solid orange;
+            }
+
+                .preview li:hover img {
+                    transform: scale(1.2);
+                    opacity: 0.8;
+                }
+    </style>
+
+</head>
+
+<body>
+
+    <header>
+        <h1>PROTEIN DESSERT GALLERY</h1>
+    </header>
+
+    <main>
+
+        <div class="main-image">
+            <img src="2.png" alt="">
+        </div>
+
+        <ul class="preview">
+
+            <li>
+                <a href="item1.html">
+                    <img src="1.png" alt="MASS-Булка Премиум">
+                </a>
+            </li>
+
+            <li>
+                <a href="item2.html">
+                    <img src="2.png" alt="Анаболический круассан">
+                </a>
+            </li>
+
+            <li>
+                <a href="item3.html">
+                    <img src="3.png" alt="Печенье Power Heavy">
+                </a>
+            </li>
+
+            <li>
+                <a href="item4.html">
+                    <img src="4.png" alt="Пончик Gains Donut">
+                </a>
+            </li>
+
+            <li>
+                <a href="item5.html">
+                    <img src="5.png" alt="Маффин Mass Builder">
+                </a>
+            </li>
+
+        </ul>
+
+    </main>
+
+    <footer>
+        <p>© Protein Dessert Gallery</p>
+    </footer>
+
+</body>
+</html>
